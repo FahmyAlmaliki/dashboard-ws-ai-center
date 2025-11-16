@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop AI Center - Universitas Brawijaya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="src/aicenter.png" alt="AI Center Logo" class="logo-ai">
+                <img src="src/ub.jpg" alt="UB Logo" class="logo-ub">
+                <div class="brand-text">
+                    <h1>AI CENTER</h1>
+                    <p>UNIVERSITAS BRAWIJAYA</p>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Our Projects</a></li>
+                <li><a href="#team">Instructors</a></li>
+                <li><a href="#contact">Register</a></li>
+                <li>
+                    <a href="https://devel-ai.ub.ac.id/jombang" target="_blank" class="btn-jombang">
+                        <i class="fas fa-cloud-sun"></i> Weather Jombang
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Workshop AI Center</h1>
+            <h2 class="hero-subtitle">Universitas Brawijaya</h2>
+            <p class="hero-description">Showcase Project-Project Inovatif dari Workshop dan Pelatihan AI Center. Berbagai project yang dikembangkan untuk meningkatkan keterampilan dan kompetensi dalam pemanfaatan teknologi kecerdasan buatan.</p>
+            <div class="hero-buttons">
+                <a href="https://devel-ai.ub.ac.id/jombang" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-cloud-sun"></i> Weather Jombang
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                    <i class="fas fa-folder-open"></i> Lihat Project Kami
+                </a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3 class="stat-number" data-target="24">0</h3>
+                <p>Workshop Series</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-project-diagram"></i>
+                <h3 class="stat-number" data-target="45">0</h3>
+                <p>Project Dikembangkan</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3 class="stat-number" data-target="320">0</h3>
+                <p>Peserta Workshop</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="stat-number" data-target="12">0</h3>
+                <p>Tools & Platform</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Workshop AI Center</h2>
+                <p>Membangun Keterampilan AI Melalui Project Nyata</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Program Workshop Kami</h3>
+                    <p>Workshop AI Center UB adalah program pelatihan intensif yang menggabungkan teori dan praktik dalam pengembangan aplikasi berbasis kecerdasan buatan. Setiap peserta akan menghasilkan project nyata yang dapat diimplementasikan.</p>
+                    
+                    <h4>Fokus Workshop:</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Pengembangan AI Applications</li>
+                        <li><i class="fas fa-check"></i> Machine Learning Implementation</li>
+                        <li><i class="fas fa-check"></i> Natural Language Processing Projects</li>
+                        <li><i class="fas fa-check"></i> Computer Vision Solutions</li>
+                        <li><i class="fas fa-check"></i> AI Tools & Platform Integration</li>
+                        <li><i class="fas fa-check"></i> Deployment & Production Ready Apps</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Workshop Kami</h2>
+                <p>Hasil Karya Peserta Workshop AI Center</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <h3>Weather Jombang</h3>
+                    <p>Aplikasi prediksi cuaca untuk wilayah Jombang menggunakan machine learning dan data real-time dari berbagai sumber.</p>
+                    <div class="project-tags">
+                        <span>Machine Learning</span>
+                        <span>Weather API</span>
+                        <span>Web App</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Chatbot AI Assistant</h3>
+                    <p>Intelligent chatbot menggunakan NLP untuk menjawab pertanyaan akademik dan layanan mahasiswa UB.</p>
+                    <div class="project-tags">
+                        <span>NLP</span>
+                        <span>ChatGPT API</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Image Recognition App</h3>
+                    <p>Aplikasi pengenalan objek menggunakan deep learning untuk identifikasi tanaman dan hama pertanian.</p>
+                    <div class="project-tags">
+                        <span>Computer Vision</span>
+                        <span>TensorFlow</span>
+                        <span>Mobile App</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Predictive Analytics Dashboard</h3>
+                    <p>Dashboard analitik prediktif untuk monitoring dan forecasting data akademik universitas.</p>
+                    <div class="project-tags">
+                        <span>Data Science</span>
+                        <span>Analytics</span>
+                        <span>Dashboard</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>AI Translator</h3>
+                    <p>Sistem penerjemah otomatis Bahasa Indonesia - Bahasa Daerah menggunakan neural machine translation.</p>
+                    <div class="project-tags">
+                        <span>NMT</span>
+                        <span>Transformer</span>
+                        <span>API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Summarizer</h3>
+                    <p>Tools AI untuk membuat ringkasan otomatis dari video pembelajaran menggunakan speech-to-text dan NLP.</p>
+                    <div class="project-tags">
+                        <span>Speech AI</span>
+                        <span>NLP</span>
+                        <span>Video Processing</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Document Analyzer</h3>
+                    <p>Sistem analisis dan ekstraksi informasi dari dokumen menggunakan OCR dan NLP untuk otomasi administrasi.</p>
+                    <div class="project-tags">
+                        <span>OCR</span>
+                        <span>Document AI</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Recommendation System</h3>
+                    <p>Sistem rekomendasi mata kuliah dan karir untuk mahasiswa berdasarkan minat dan performa akademik.</p>
+                    <div class="project-tags">
+                        <span>Recommendation</span>
+                        <span>ML</span>
+                        <span>Personalization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Instruktur Workshop</h2>
+                <p>Para Mentor dan Fasilitator Berpengalaman</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Dr. Ahmad Rahman</h3>
+                    <p class="team-role">Lead Instructor - Machine Learning</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Siti Nurhaliza, M.Kom</h3>
+                    <p class="team-role">Instructor - NLP & Chatbot</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Budi Santoso, M.T</h3>
+                    <p class="team-role">Instructor - Computer Vision</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Dinda Permata, S.Kom</h3>
+                    <p class="team-role">Technical Mentor - AI Tools</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Daftar Workshop</h2>
+                <p>Bergabunglah dengan Workshop AI Center dan Kembangkan Project AI Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Rectorat Building 1st Floor<br>Universitas Brawijaya<br>Malang, East Java, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>aicenter@ub.ac.id</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p><a href="https://aicenter.ub.ac.id" target="_blank">aicenter.ub.ac.id</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-cloud-sun"></i>
+                        <div>
+                            <h4>Weather Jombang</h4>
+                            <p><a href="https://devel-ai.ub.ac.id/jombang" target="_blank">devel-ai.ub.ac.id/jombang</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Pesan" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="src/aicenter.png" alt="AI Center Logo" class="footer-logo-img">
+                        <img src="src/ub.jpg" alt="UB Logo" class="footer-logo-img">
+                    </div>
+                    <h3>AI CENTER UNIVERSITAS BRAWIJAYA</h3>
+                    <p>Pusat Kecerdasan Buatan Universitas Brawijaya, memajukan teknologi AI untuk Indonesia.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Workshop</a></li>
+                        <li><a href="#projects">Our Projects</a></li>
+                        <li><a href="#team">Instructors</a></li>
+                        <li><a href="https://devel-ai.ub.ac.id/jombang" target="_blank">Weather Jombang</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Workshop Topics</h3>
+                    <ul>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">Natural Language Processing</a></li>
+                        <li><a href="#">Computer Vision</a></li>
+                        <li><a href="#">AI Tools & Integration</a></li>
+                        <li><a href="#">Project Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan update terbaru dari Workshop AI Center UB</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Workshop AI Center Universitas Brawijaya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
